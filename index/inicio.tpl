@@ -2,12 +2,13 @@
 <html ng-app="Aplicacion">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" href="./assets/style.css"/>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>-->
+    <script src="http://code.jquery.com/jquery-migrate-3.0.1.min.js" integrity="sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=" crossorigin="anonymous"></script>
     <script src="./assets/bootstrap/js/bootstrap.js"></script>
     <script src="./assets/script.js"></script>
 
@@ -18,11 +19,15 @@
     <!-- Owl stylesheet -->
 
     <!-- slitslider -->
-    <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/style.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="./assets/slitslider/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/custom.css"/>
     <script type="text/javascript" src="./assets/slitslider/js/modernizr.custom.79639.js"></script>
     <script type="text/javascript" src="./assets/slitslider/js/jquery.ba-cond.min.js"></script>
-    <script type="text/javascript" src="./assets/slitslider/js/jquery.slitslider.js"></script>
+    <script type="text/javascript" src="./assets/slitslider/js/jquery.slitslider.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/custom.css" />
     <!-- slitslider -->
 
     <!--<link rel="shortcut icon" href="./assets/img/sep.ico" />-->
@@ -60,6 +65,7 @@
 
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
+                <a href="index.php" class="nav navbar-nav navbar-left"><img src="images/emcorsa.png" alt="Realestate" width="100" height="40"></a>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="#!about">Acerca</a></li>
@@ -79,9 +85,8 @@
 
     <!-- Header Starts -->
     <div class="header">
-        <a href="index.php"><img src="images/emcorsa.png" alt="Realestate"></a>
+        <!--<a href="index.php"><img src="images/emcorsa.png" alt="Realestate"></a>
 
-        <!--
                       <ul class="pull-right">
                         <li><a href="buysalerent.php">Comprar</a></li>
                         <li><a href="buysalerent.php">Vender</a></li>
@@ -177,6 +182,83 @@
     </div>
 </div>
 <!-- /.modal -->
+
+<!-- slitslider -->
+<script type="text/javascript" src="./assets/slitslider/js/modernizr.custom.79639.js"></script>
+<noscript>
+    <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/styleNoJS.css" />
+</noscript>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/slitslider/js/jquery.ba-cond.min.js"></script>
+<script type="text/javascript" src="./assets/slitslider/js/jquery.slitslider.js"></script>
+<script type="text/javascript">
+    $(function() {
+
+        var Page = (function() {
+
+            var $nav = $( '#nav-dots > span' ),
+                slitslider = $( '#slider' ).slitslider( {
+                    onBeforeChange : function( slide, pos ) {
+
+                        $nav.removeClass( 'nav-dot-current' );
+                        $nav.eq( pos ).addClass( 'nav-dot-current' );
+
+                    }
+                } ),
+
+                init = function() {
+
+                    initEvents();
+
+                },
+                initEvents = function() {
+
+                    $nav.each( function( i ) {
+
+                        $( this ).on( 'click', function( event ) {
+
+                            var $dot = $( this );
+
+                            if( !slitslider.isActive() ) {
+
+                                $nav.removeClass( 'nav-dot-current' );
+                                $dot.addClass( 'nav-dot-current' );
+
+                            }
+
+                            slitslider.jump( i + 1 );
+                            return false;
+
+                        } );
+
+                    } );
+
+                };
+
+            return { init : init };
+
+        })();
+
+        Page.init();
+
+        /**
+         * Notes:
+         *
+         * example how to add items:
+         */
+
+        /*
+
+        var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+
+        // call the plugin's add method
+        ss.add($items);
+
+        */
+
+    });
+</script>
+<!-- slitslider -->
 </body>
 
 </html>
