@@ -1,5 +1,5 @@
 <?php
-	$dbName='indicators';
+	$dbName='emcorsa';
 	$dbRoot='localhost';
 	$dbUser='root';
 	$dbPass='';
