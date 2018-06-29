@@ -16,7 +16,6 @@
                     <input type="text" class="form-control" placeholder="Usuario" ng-model="formData.user">
                     <input type="password" class="form-control" placeholder="Password" ng-model="formData.pass">
                     <button type="submit" class="btn btn-success" name="Submit" ng-click="logear(formData)">Acceder</button>
-                    <label>{{formData}}</label>
                 </div>
             </form>
         </div>

@@ -64,7 +64,8 @@
                     <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="#!about">Acerca</a></li>
                     <li><a href="#!blog">Lotes Disponibles</a></li>
-                    <li><a href="#!login">Acceder</a></li>
+                    <li><a href="#!login" ng-if="!logi">Acceder</a></li>
+                    <li><a href="#!fuerza" ng-if="logi">Fuerza de venta</a></li>
                     <li><a href="#!contact">Contactanos</a></li>
                 </ul>
             </div>
