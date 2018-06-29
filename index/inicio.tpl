@@ -62,10 +62,10 @@
             <div class="navbar-collapse  collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.php">Inicio</a></li>
-                    <li><a href="about.php">Acerca</a></li>
-                    <li><a href="blog.php">Lotes Disponibles</a></li>
-                    <li><a href="login.php">Acceder</a></li>
-                    <li><a href="contact.php">Contactanos</a></li>
+                    <li><a href="#!about">Acerca</a></li>
+                    <li><a href="#!blog">Lotes Disponibles</a></li>
+                    <li><a href="#!login">Acceder</a></li>
+                    <li><a href="#!contact">Contactanos</a></li>
                 </ul>
             </div>
             <!-- #Nav Ends -->
