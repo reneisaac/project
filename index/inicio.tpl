@@ -27,6 +27,7 @@
 
     <!--<link rel="shortcut icon" href="./assets/img/sep.ico" />-->
     <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/estilo.css">
     <title>{{titulo}}</title>
     <script src="./assets/js/angularjs/angular.min.js"></script>
     <script src="./assets/js/angularjs/angular-route.min.js"></script>
