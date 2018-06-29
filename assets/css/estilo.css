@@ -1,6 +1,6 @@
 /*****************Contenido********************/
 .contenido {
-    padding: 50px 15px;
+    padding: 1px 15px;
     z-index: -1;
     margin: 0px;
     margin-top: 1px;
@@ -105,7 +105,7 @@
 
 .form-texto-animado .input-text:focus, .form-texto-animado .input-text:active {
     outline: none;
-    border-bottom: 2px solid #00a09d !important;
+    border-bottom: 2px solid #72b70f !important;
 }
 
 .form-texto-animado:after {
@@ -115,7 +115,7 @@
     bottom: 0px;
     width: 0;
     height: 2px;
-    background-color: #00a09d;
+    background-color: #72b70f;
     content: "";
     transition: width 0.5s;
 }
@@ -147,7 +147,7 @@
     font-weight: bold;
     top: -10px;
     font-size: 14px;
-    color: #00a09d;
+    color: #72b70f;
 }
 
 /*****************Cartas********************/
@@ -164,7 +164,7 @@
 
 .card-encabezado {
     /*background-color: #ffcc00;*/
-    background-color: #875A7B;
+    background-color: #222;
     box-shadow: 0 12px 20px -10px rgba(0, 51, 153, 0.28),
     0 4px 20px 0px rgba(0, 0, 0, 0.12),
     0 7px 8px -5px rgba(0, 51, 153, 0.2);
@@ -228,6 +228,22 @@
 
 .tabla-responsive {
     overflow-x: auto;
+}
+/*********************botones**********************************/
+.btn.verde {
+    background-color: #72b70f;
+    color: #FFFFFF;
+    box-shadow: 0 2px 2px 0 rgba(0, 51, 153, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 51, 153, 0.12);
+}
+.btn.verde:hover, .btn.verde:focus {
+    box-shadow: 0 14px 26px -12px rgba(0, 51, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 51, 153, 0.2);
+}
+
+.btn.verde:disabled,
+button[disabled]{
+    color: #b2f25a;
+    background-color: #4d88ff;
+    box-shadow: 0 2px 2px 0 rgba(0, 51, 153, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 51, 153, 0.12);
 }
 
 /*********************radio**********************************/
