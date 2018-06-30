@@ -64,10 +64,9 @@
                     <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="#!about">Acerca</a></li>
                     <li><a href="#!blog">Lotes Disponibles</a></li>
-                    <li><a href="#!login" ng-if="!logi">Acceder</a></li>
-                    <li><a href="#!fuerza" ng-if="logi">Fuerza de venta</a></li>
+                    <li><a href="#!fuerza">Fuerza de venta</a></li>
                     <li><a href="#!contact">Contactanos</a></li>
-                    <li><a ng-if="logi" onclick="cerrar()">Cerrar sesión</a></li>
+                    <li><a onclick="cerrar()">Cerrar sesión</a></li>
                 </ul>
             </div>
             <!-- #Nav Ends -->
@@ -88,13 +87,21 @@
                         <li><a href="buysalerent.php">Vender</a></li>
                         <li><a href="buysalerent.php">Rentar</a></li>
                       </ul>
-        -->0
+        -->
     </div>
     <!-- #Header Starts -->
 </div>
 <div class="contenido" ng-view="">
 </div>
-<?php require('footer.php') ?>
+<?php require('footer.php')?>
+<script>
+    function cerrar() {
+
+        window.location.href = "index.php";
+        <?php session_destroy()?>
+    }
+</script>
+<?php?>
 </body>
 
 </html>
