@@ -26,6 +26,7 @@
     <!-- slitslider -->
 
     <!--<link rel="shortcut icon" href="./assets/img/sep.ico" />-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/estilo.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
     <title>{{titulo}}</title>
     <script src="./assets/js/angularjs/angular.min.js"></script>
@@ -98,10 +99,9 @@
     function cerrar() {
 
         window.location.href = "index.php";
-        <?php session_destroy()?>
+        <?php session_destroy();?>
     }
 </script>
-<?php?>
 </body>
 
 </html>
