@@ -1,89 +1,170 @@
-<div class="">
-<div id="slider" class="sl-slider-wrapper">
-    <div class="sl-slider">
-        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25"
-             data-slice1-scale="2" data-slice2-scale="2">
-            <div class="sl-slide-inner">
-                <div class="bg-img bg-img-1"></div>
-                <h2><a href="#">4 Habitaciones,2 baños,sala,garaje</a></h2>
-                <blockquote>
-                    <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista
-                        Hermosa</p>
-                    <p>Carretera al Calán frente a Coalsa.</p>
-                    <cite>Lps 1,500,000.00</cite>
-                </blockquote>
+
+<!--
+    <div id="slider" class="sl-slider-wrapper">
+        <div class="sl-slider">
+            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-1"></div>
+                    <h2><a href="#">4 Habitaciones,2 baños,sala,garaje</a></h2>
+                    <blockquote>
+                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista Hermosa</p>
+                        <p>Carretera al Calán frente a Coalsa.</p>
+                        <cite>Lps 1,500,000.00</cite>
+                    </blockquote>
+                </div>
             </div>
-        </div>
 
-        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15"
-             data-slice1-scale="1.5" data-slice2-scale="1.5">
-            <div class="sl-slide-inner">
-                <div class="bg-img bg-img-2"></div>
-                <h2><a href="#">2 Habitaciones,2 baños,sala,garaje</a></h2>
-                <blockquote>
-                    <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista
-                        Hermosa</p>
-                    <p>Carretera al Calán frente a Coalsa.</p>
-                    <cite>Lps 700,000.00</cite>
-                </blockquote>
+            <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-2"></div>
+                    <h2><a href="#">2 Habitaciones,2 baños,sala,garaje</a></h2>
+                    <blockquote>
+                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista Hermosa</p>
+                        <p>Carretera al Calán frente a Coalsa.</p>
+                        <cite>Lps 700,000.00</cite>
+                    </blockquote>
+                </div>
             </div>
-        </div>
 
-        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3"
-             data-slice1-scale="2" data-slice2-scale="1">
-            <div class="sl-slide-inner">
-                <div class="bg-img bg-img-3"></div>
-                <h2><a href="#">2 Habitaciones,2 baños,sala,garaje</a></h2>
-                <blockquote>
-                    <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista
-                        Hermosa</p>
-                    <p>Carretera al Calán frente a Coalsa.</p>
-                    <cite>Lps 850,000.00</cite>
-                </blockquote>
+            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-3"></div>
+                    <h2><a href="#">2 Habitaciones,2 baños,sala,garaje</a></h2>
+                    <blockquote>
+                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista
+                            Hermosa</p>
+                        <p>Carretera al Calán frente a Coalsa.</p>
+                        <cite>Lps 850,000.00</cite>
+                    </blockquote>
+                </div>
             </div>
-        </div>
 
-        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25"
-             data-slice1-scale="2" data-slice2-scale="1">
-            <div class="sl-slide-inner">
-                <div class="bg-img bg-img-4"></div>
-                <h2><a href="#">5 Habitaciones,3 baño,sala,garaje</a></h2>
-                <blockquote>
-                    <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista
-                        Hermosa</p>
-                    <p>Carretera al Calán frente a Coalsa.</p>
-                    <cite>Lps 4000,000.00</cite>
-                </blockquote>
+            <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-4"> </div>
+                    <h2><a href="#">5 Habitaciones,3 baño,sala,garaje</a></h2>
+                    <blockquote>
+                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista Hermosa</p>
+                        <p>Carretera al Calán frente a Coalsa.</p>
+                        <cite>Lps 4000,000.00</cite>
+                    </blockquote>
+                </div>
             </div>
-        </div>
 
-        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10"
-             data-slice1-scale="2" data-slice2-scale="1">
-            <div class="sl-slide-inner">
-                <div class="bg-img bg-img-5"></div>
-                <h2><a href="#">6 Habitaciones,3 baños,sala,garaje</a></h2>
-                <blockquote>
-                    <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista
-                        Hermosa</p>
-                    <p>Carretera al Calán frente a Coalsa.</p>
-                    <cite>Lps 3000,000.00</cite>
-                </blockquote>
+            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-5"></div>
+                    <h2><a href="#">6 Habitaciones,3 baños,sala,garaje</a></h2>
+                    <blockquote>
+                        <p class="location"><span class="glyphicon glyphicon-map-marker"></span> Residencial Vista Hermosa</p>
+                        <p>Carretera al Calán frente a Coalsa.</p>
+                        <cite>Lps 3000,000.00</cite>
+                    </blockquote>
+                </div>
+            </div>-->
+       <!-- </div><!-- /sl-slider -->
+
+
+        <!--<nav id="nav-dots" class="nav-dots">
+            <span class="nav-dot-current"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </nav>-->
+
+   <!-- </div><!-- /slider-wrapper -->
+
+<div class="container demo-2">
+
+    <!-- Codrops top bar -->
+    <div class="codrops-top clearfix">
+        <a href="http://tympanus.net/Tutorials/CSS3BouncingBall/">
+            <strong>&laquo; Previous Demo: </strong>3D Bouncing Ball with CSS3
+        </a>
+        <span class="right">
+                	<a href="http://www.flickr.com/photos/majownik/">Images by Majownik</a>
+                    <a href="http://tympanus.net/codrops/?p=9357">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+        <div class="clr"></div>
+    </div><!--/ Codrops top bar -->
+
+    <header class="clearfix">
+
+        <h1>Slit Slider <span>with CSS3 and jQuery</span></h1>
+
+        <nav class="codrops-demos">
+            <a href="#">Demo 1</a>
+            <a class="current-demo" href="index2.html">Demo 2</a>
+        </nav>
+
+    </header>
+
+    <div id="slider" class="sl-slider-wrapper">
+
+        <div class="sl-slider">
+
+            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-1"></div>
+                    <h2>A bene placito.</h2>
+                    <blockquote><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite></blockquote>
+                </div>
             </div>
-        </div>
-    </div><!-- /sl-slider -->
 
+            <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-2"></div>
+                    <h2>Regula aurea.</h2>
+                    <blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+                </div>
+            </div>
 
-    <nav id="nav-dots" class="nav-dots">
-        <span class="nav-dot-current"></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </nav>
+            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-3"></div>
+                    <h2>Dum spiro, spero.</h2>
+                    <blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+                </div>
+            </div>
 
-</div><!-- /slider-wrapper -->
+            <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-4"></div>
+                    <h2>Donna nobis pacem.</h2>
+                    <blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+                </div>
+            </div>
+
+            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-5"></div>
+                    <h2>Acta Non Verba.</h2>
+                    <blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>
+                </div>
+            </div>
+        </div><!-- /sl-slider -->
+
+        <nav id="nav-dots" class="nav-dots">
+            <span class="nav-dot-current"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </nav>
+
+    </div><!-- /slider-wrapper -->
+
+    <div class="content-wrapper">
+        <h2>About this slider</h2>
+        <p>The Slit Slider is a slideshow with a twist: the idea is to slice open the current slide when navigating to the next or previous one. Using jQuery and CSS animations we can create unique slide transitions for the content elements. </p>
+    </div>
+
 </div>
 
+-->
 
 <div class="banner-search">
     <div class="container">

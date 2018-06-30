@@ -78,7 +78,7 @@
 		// maximum possible scale
 		maxScale : 2,
 		// slideshow on / off
-		autoplay : true,
+		autoplay : false,
 		// keyboard navigation
 		keyboard : true,
 		// time between transitions
@@ -439,13 +439,13 @@
 						
 						case arrow.left :
 
-						//	self._stopSlideshow();
+							self._stopSlideshow();
 							self._navigate( 'prev' );
 							break;
 						
 						case arrow.right :
 							
-						//	self._stopSlideshow();
+							self._stopSlideshow();
 							self._navigate( 'next' );
 							break;
 
