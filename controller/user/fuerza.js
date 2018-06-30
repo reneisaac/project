@@ -6,4 +6,23 @@ app.controller('fuerza', function ($scope, $rootScope, $http, $location) {
 
     }
 
+    $scope.guarClient=function(datos){
+
+        $http({
+            method: "POST",
+            url: "services/regisClient.php",
+            data:$.param(datos),
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'
+            }
+        }).then(
+            function success(response) {
+                window.location.reload();
+
+            },
+            function error(response) {
+
+            });
+    }
+
 });

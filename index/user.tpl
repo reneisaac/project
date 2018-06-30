@@ -1,45 +1,11 @@
 <!DOCTYPE html>
 <html ng-app="Aplicacion">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="./assets/style.css"/>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="./assets/bootstrap/js/bootstrap.js"></script>
-    <script src="./assets/script.js"></script>
-
-    <!-- Owl stylesheet -->
-    <link rel="stylesheet" href="./assets/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="./assets/owl-carousel/owl.theme.css">
-    <script src="./assets/owl-carousel/owl.carousel.js"></script>
-    <!-- Owl stylesheet -->
-
-    <!-- slitslider -->
-    <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/slitslider/css/custom.css"/>
-    <script type="text/javascript" src="./assets/slitslider/js/modernizr.custom.79639.js"></script>
-    <script type="text/javascript" src="./assets/slitslider/js/jquery.ba-cond.min.js"></script>
-    <script type="text/javascript" src="./assets/slitslider/js/jquery.slitslider.js"></script>
-    <!-- slitslider -->
-
-    <!--<link rel="shortcut icon" href="./assets/img/sep.ico" />-->
-    <link rel="stylesheet" type="text/css" href="./assets/css/estilo.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
-    <title>{{titulo}}</title>
-    <script src="./assets/js/angularjs/angular.min.js"></script>
-    <script src="./assets/js/angularjs/angular-route.min.js"></script>
-    <!--<script src="./assets/js/jquery/jquery.min.js"></script>
-    <script src="./assets/js/util.js"></script>
-    <script src="./assets/js/Chart.boundle.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/editable.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/angular-datepicker.css">
-    <script src="./assets/js/angular-datepicker.js"></script>-->
-
     <?php
+        include 'scripts.php';
   		include './controller/user/controller.php';
   	?>
 </head>
@@ -67,6 +33,7 @@
                     <li><a href="#!blog">Lotes Disponibles</a></li>
                     <li><a href="#!fuerza">Fuerza de venta</a></li>
                     <li><a href="#!contact">Contactanos</a></li>
+                    <li><a href="#!clientes">Clientes</a></li>
                     <li><a onclick="cerrar()">Cerrar sesión</a></li>
                 </ul>
             </div>
