@@ -31,6 +31,9 @@
     <title>{{titulo}}</title>
     <script src="./assets/js/angularjs/angular.min.js"></script>
     <script src="./assets/js/angularjs/angular-route.min.js"></script>
+
+    <script src="./assets/js/pdfmake/pdfmake.min.js"></script>
+    <script src="./assets/js/pdfmake/vfs_fonts.js"></script>
     <!--<script src="./assets/js/jquery/jquery.min.js"></script>
     <script src="./assets/js/util.js"></script>
     <script src="./assets/js/Chart.boundle.js"></script>

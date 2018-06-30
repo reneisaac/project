@@ -2,7 +2,7 @@
 <html ng-app="Aplicacion">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css"/>
@@ -25,12 +25,15 @@
     <script type="text/javascript" src="./assets/slitslider/js/jquery.slitslider.js"></script>
     <!-- slitslider -->
 
-    <!--<link rel="shortcut icon" href="./assets/img/sep.ico" />-->3
+    <!--<link rel="shortcut icon" href="./assets/img/sep.ico" />-->
     <link rel="stylesheet" type="text/css" href="./assets/css/estilo.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
     <title>{{titulo}}</title>
     <script src="./assets/js/angularjs/angular.min.js"></script>
     <script src="./assets/js/angularjs/angular-route.min.js"></script>
+
+    <script src="./assets/js/pdfmake/pdfmake.min.js"></script>
+    <script src="./assets/js/pdfmake/vfs_fonts.js"></script>
     <!--<script src="./assets/js/jquery/jquery.min.js"></script>
     <script src="./assets/js/util.js"></script>
     <script src="./assets/js/Chart.boundle.js"></script>
@@ -50,8 +53,7 @@
     <div class="navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -61,6 +63,9 @@
 
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
+
+                <a href="index.php" class="nav navbar-nav navbar-left"><img src="images/emcorsa.png" alt="Realestate" width="80" height="40"></a>
+
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="#!about">Acerca</a></li>
@@ -86,7 +91,7 @@
 <div class="container">
 
     <!-- Header Starts -->
-    <div class="header">
+    <!--<div class="header">
         <a href="index.php"><img src="images/emcorsa.png" alt="Realestate"></a>
 
         <!--
@@ -95,7 +100,7 @@
                         <li><a href="buysalerent.php">Vender</a></li>
                         <li><a href="buysalerent.php">Rentar</a></li>
                       </ul>
-        -->
+
     </div>
     <!-- #Header Starts -->
 </div>
