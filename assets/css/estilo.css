@@ -1,3 +1,15 @@
+.error {
+    color: red;
+}
+.warning {
+    color: #ffcc00;
+}
+
+.letra {
+    font-size: 13px;
+}
+
+
 /*****************Contenido********************/
 .contenido {
     padding: 1px 15px;

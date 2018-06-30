@@ -13,9 +13,13 @@
         <div class="row contact">
             <form name="formLogin" novalidate>
                 <div class="col-lg-6 col-sm-6 ">
-                    <input type="text" class="form-control" placeholder="Usuario" ng-model="formData.user">
-                    <input type="password" class="form-control" placeholder="Password" ng-model="formData.pass">
-                    <button type="submit" class="btn btn-success" name="Submit" ng-click="logear(formData)">Acceder</button>
+                    <input type="text" class="form-control" placeholder="Usuario" ng-maxlength="10" name="userLog" ng-model="formData.user" required>
+                    <span ng-show="!formLogin.$pristine && formLogin.userLog.$error.required" class="error letra">campo requerido</span>
+                    <span ng-show="!formLogin.$pristine && formLogin.userLog.$error.maxlength" class="error letra">Máximo 10 caracteres</span>
+                    <input type="password" class="form-control" placeholder="Password" name="userPass" ng-maxlength="30" ng-model="formData.pass" required>
+                    <span ng-show="!formLogin.$pristine && formLogin.userPass.$error.required" class="error letra">campo requerido</span>
+                    <span ng-show="!formLogin.$pristine && formLogin.userPass.$error.maxlength" class="error letra">Máximo 30 caracteres</span>
+                    <button type="submit" class="btn btn-success" name="Submit" ng-click="logear(formData)"  ng-disabled="!formLogin.$valid">Acceder</button>
                 </div>
             </form>
         </div>
