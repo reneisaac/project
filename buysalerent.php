@@ -56,27 +56,27 @@
 <div class="hot-properties hidden-xs">
 <h4> Propiedades Destacadas</h4>
 <div class="row">
-                <div class="col-lg-4 col-sm-5"><img src="images/properties/reco1.jpg" class="img-responsive img-circle" alt="properties"></div>
+                <div class="col-lg-4 col-sm-5"><img src="assets/images/properties/reco1.jpg" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php">Saber mas</a></h5>
                   <p class="price">Lps 900,000</p> </div>
               </div>
 <div class="row">
-                <div class="col-lg-4 col-sm-5"><img src="images/properties/reco2.jpg" class="img-responsive img-circle" alt="properties"></div>
+                <div class="col-lg-4 col-sm-5"><img src="assets/images/properties/reco2.jpg" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php">Saber mas</a></h5>
                   <p class="price">Lps 1,000,000</p> </div>
               </div>
 
 <div class="row">
-                <div class="col-lg-4 col-sm-5"><img src="images/properties/reco4.jpg" class="img-responsive img-circle" alt="properties"></div>
+                <div class="col-lg-4 col-sm-5"><img src="assets/images/properties/reco4.jpg" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php">Saber mas</a></h5>
                   <p class="price">Lps 3,000,000</p> </div>
               </div>
 
 <div class="row">
-                <div class="col-lg-4 col-sm-5"><img src="images/properties/reco6.jpg" class="img-responsive img-circle" alt="properties"></div>
+                <div class="col-lg-4 col-sm-5"><img src="assets/images/properties/reco6.jpg" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php">Saber mas</a></h5>
                   <p class="price">Lps 5,000,000</p> </div>
@@ -105,7 +105,7 @@
      <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco9.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco9.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -120,7 +120,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco8.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco8.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -134,7 +134,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco7.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco7.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -148,7 +148,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco6.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco6.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -162,7 +162,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco5.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco5.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -176,7 +176,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco4.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco4.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -190,7 +190,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco2.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco2.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -204,7 +204,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco1.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco1.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -218,7 +218,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco9.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco9.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -231,21 +231,7 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco8.jpg" class="img-responsive" alt="properties">
-          <div class="status sold">Sold</div>
-        </div>
-        <h4><a href="property-detail.php">Residencial</a></h4>
-        <p class="price">Precio: Lps 1,500,000</p>
-        <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Dormitorios">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Sala">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Garage">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Cocina">1</span> </div>
-        <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
-      </div>
-      </div>
-      <!-- properties -->
-
-      <!-- properties -->
-      <div class="col-lg-4 col-sm-6">
-      <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco7.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco8.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
@@ -259,7 +245,21 @@
       <!-- properties -->
       <div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder"><img src="images/properties/reco6.jpg" class="img-responsive" alt="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco7.jpg" class="img-responsive" alt="properties">
+          <div class="status sold">Sold</div>
+        </div>
+        <h4><a href="property-detail.php">Residencial</a></h4>
+        <p class="price">Precio: Lps 1,500,000</p>
+        <div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Dormitorios">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Sala">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Garage">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Cocina">1</span> </div>
+        <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
+      </div>
+      </div>
+      <!-- properties -->
+
+      <!-- properties -->
+      <div class="col-lg-4 col-sm-6">
+      <div class="properties">
+        <div class="image-holder"><img src="assets/images/properties/reco6.jpg" class="img-responsive" alt="properties">
           <div class="status sold">Sold</div>
         </div>
         <h4><a href="property-detail.php">Residencial</a></h4>
