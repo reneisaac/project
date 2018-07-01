@@ -27,6 +27,7 @@
 
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
+                <a href="index.php" class="nav navbar-nav navbar-left"><img src="images/emcorsa.png" alt="Realestate"></a>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="#!about">Acerca</a></li>
@@ -47,7 +48,7 @@
 
     <!-- Header Starts -->
     <div class="header">
-        <a href="index.php"><img src="images/emcorsa.png" alt="Realestate"></a>
+        <!--<a href="index.php"><img src="images/emcorsa.png" alt="Realestate"></a>-->
 
         <!--
                       <ul class="pull-right">

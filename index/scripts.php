@@ -1,3 +1,6 @@
+
+<title>{{titulo}}</title>
+
 <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css"/>
 <link rel="stylesheet" href="./assets/style.css"/>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -21,6 +24,10 @@
 <!--<link rel="shortcut icon" href="./assets/img/sep.ico" />-->
 <link rel="stylesheet" type="text/css" href="./assets/css/estilo.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
-<title>{{titulo}}</title>
+
 <script src="./assets/js/angularjs/angular.min.js"></script>
 <script src="./assets/js/angularjs/angular-route.min.js"></script>
+
+<!-- Generar pdf -->
+<script src="./assets/js/pdfmake/pdfmake.min.js"></script>
+<script src="./assets/js/pdfmake/vfs_fonts.js"></script>
