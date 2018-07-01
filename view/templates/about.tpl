@@ -12,7 +12,7 @@
     <div class="spacer">
         <div class="row">
             <div class="col-lg-8  col-lg-offset-2">
-                <img src="images/acerca.jpg" class="img-responsive thumbnail" alt="realestate">
+                <img src="assets/images/acerca.jpg" class="img-responsive thumbnail" alt="realestate">
                 <h3 style="text-align: center">Mision</h3>
                 <p>Agregar mision.</p>
                 <h3 style="text-align: center">Vision</h3>

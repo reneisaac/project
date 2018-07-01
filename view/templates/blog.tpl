@@ -16,7 +16,7 @@
                 <!-- blog list -->
                 <div class="row">
                     <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img
-                                    src="images/lotes/casa.jpg" alt="blog title"></a></div>
+                                    src="assets/images/lotes/casa.jpg" alt="blog title"></a></div>
                     <div class="col-lg-8 col-sm-8 ">
                         <h3><a href="blogdetail.php">Lote disponible con financiamiento</a></h3>
                         <div class="info">informacion</div>
@@ -30,7 +30,7 @@
                 <!-- blog list -->
                 <div class="row">
                     <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img
-                                    src="images/lotes/casa.jpg" alt="blog title"></a></div>
+                                    src="assets/images/lotes/casa.jpg" alt="blog title"></a></div>
                     <div class="col-lg-8 col-sm-8 ">
                         <h3><a href="blogdetail.php">Lote disponible con financiamiento</a></h3>
                         <div class="info">informacion</div>
@@ -44,7 +44,7 @@
                 <!-- blog list -->
                 <div class="row">
                     <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img
-                                    src="images/lotes/casa.jpg" alt="blog title"></a></div>
+                                    src="assets/images/lotes/casa.jpg" alt="blog title"></a></div>
                     <div class="col-lg-8 col-sm-8 ">
                         <h3><a href="blogdetail.php">Lote disponible con financiamiento</a></h3>
                         <div class="info">informacion</div>
@@ -58,7 +58,7 @@
                 <!-- blog list -->
                 <div class="row">
                     <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img
-                                    src="images/lotes/casa.jpg" alt="blog title"></a></div>
+                                    src="assets/images/lotes/casa.jpg" alt="blog title"></a></div>
                     <div class="col-lg-8 col-sm-8 ">
                         <h3><a href="blogdetail.php">Lote disponible con financiamiento</a></h3>
                         <div class="info">informacion</div>
@@ -72,7 +72,7 @@
                 <!-- blog list -->
                 <div class="row">
                     <div class="col-lg-4 col-sm-4 "><a href="blogdetail.php" class="thumbnail"><img
-                                    src="images/lotes/casa.jpg" alt="blog title"></a></div>
+                                    src="assets/images/lotes/casa.jpg" alt="blog title"></a></div>
                     <div class="col-lg-8 col-sm-8 ">
                         <h3><a href="blogdetail.php">Lote disponible con financiamiento</a></h3>
                         <div class="info">informacion</div>
