@@ -64,6 +64,10 @@
             <div class="columna-12">
                 <button class="btn form verde pull-right" ng-disabled="!regiClient.$valid" ng-click="guarClient(data)">Guardar cliente</button>
             </div>
+            <div class="columna-12">
+                <button class="btn form verde pull-right" ng-click="printClie(data,data2)" data-toggle="modal" data-target=".bs-example-modal-lg">Imprimir</button>
+            </div>
+            <!--<iframe id='pdfV' style="width:100%; height:auto"> </iframe>-->
             <label>{{data2}}</label>
         </form>
 

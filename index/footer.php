@@ -51,7 +51,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="row">
-                <div class="col-sm-6 login">
+                <!--<div class="col-sm-6 login">
                     <h4>Login</h4>
                     <form class="" role="form">
                         <div class="form-group">
@@ -75,7 +75,9 @@
                     <h4>Al acceder al sistema</h4>
                     <p>Podrás observar el avance de la construcción de tu vivienda .</p>
                     <!--          <button type="submit" class="btn btn-info"  onclick="window.location.href='register.php'">Join Now</button>-->
-                </div>
+                <!--</div>-->
+
+                <iframe id='pdfV' style="width:100%; height:-webkit-fill-available"> </iframe>
 
             </div>
         </div>
