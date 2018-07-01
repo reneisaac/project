@@ -141,7 +141,7 @@
         <h2>Propiedades Recomendadas</h2>
         <div id="owl-example" class="owl-carousel">
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco1.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco1.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status sold">En venta</div>
                 </div>
@@ -156,7 +156,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco2.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco2.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status new">Nuevo modelo</div>
                 </div>
@@ -171,7 +171,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco10.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco10.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status new">Nuevo modelo</div>
                 </div>
@@ -186,7 +186,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco4.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco4.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status new">Nuevo modelo</div>
                 </div>
@@ -201,7 +201,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco6.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco6.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status sold">Nuevo modelo</div>
                 </div>
@@ -216,7 +216,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco7.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco7.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status sold">Financiamiento disponible</div>
                 </div>
@@ -231,7 +231,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco8.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco8.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status sold">En venta</div>
                 </div>
@@ -246,7 +246,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco9.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco9.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status new">Nuevo modelo</div>
                 </div>
@@ -261,7 +261,7 @@
                 <a class="btn btn-primary" href="property-detail.php">View Details</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco4.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco4.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status new">Nuevo modelo</div>
                 </div>
@@ -276,7 +276,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco6.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco6.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status new">Nuevo modelo</div>
                 </div>
@@ -291,7 +291,7 @@
                 <a class="btn btn-primary" href="property-detail.php">Ver Detalles</a>
             </div>
             <div class="properties">
-                <div class="image-holder"><img src="images/properties/reco2.jpg" class="img-responsive"
+                <div class="image-holder"><img src="assets/images/properties/reco2.jpg" class="img-responsive"
                                                alt="properties"/>
                     <div class="status new">Nuevo modelo</div>
                 </div>
@@ -328,7 +328,7 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <div class="row">
-                                <div class="col-lg-4"><img src="images/properties/casa1.jpg" class="img-responsive"
+                                <div class="col-lg-4"><img src="assets/images/properties/casa1.jpg" class="img-responsive"
                                                            alt="properties"/></div>
                                 <div class="col-lg-8">
                                     <h5>Open House</h5>
@@ -338,7 +338,7 @@
                         </div>
                         <div class="item">
                             <div class="row">
-                                <div class="col-lg-4"><img src="images/properties/casa2.jpg" class="img-responsive"
+                                <div class="col-lg-4"><img src="assets/images/properties/casa2.jpg" class="img-responsive"
                                                            alt="properties"/></div>
                                 <div class="col-lg-8">
                                     <h5>Open House</h5>
@@ -348,7 +348,7 @@
                         </div>
                         <div class="item">
                             <div class="row">
-                                <div class="col-lg-4"><img src="images/properties/casa5.jpg" class="img-responsive"
+                                <div class="col-lg-4"><img src="assets/images/properties/casa5.jpg" class="img-responsive"
                                                            alt="properties"/></div>
                                 <div class="col-lg-8">
                                     <h5>Open House</h5>
@@ -358,7 +358,7 @@
                         </div>
                         <div class="item">
                             <div class="row">
-                                <div class="col-lg-4"><img src="images/properties/casa6.jpg" class="img-responsive"
+                                <div class="col-lg-4"><img src="assets/images/properties/casa6.jpg" class="img-responsive"
                                                            alt="properties"/></div>
                                 <div class="col-lg-8">
                                     <h5>Open House</h5>

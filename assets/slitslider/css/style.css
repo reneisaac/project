@@ -10,8 +10,6 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 /* Slide wrapper and slides */
@@ -24,7 +22,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-} 
+}
 
 .sl-slide {
 	z-index: 1;
@@ -107,10 +105,10 @@
 
 /* Default styles for background colors */
 .sl-slide-horizontal .sl-slide-inner {
-	background: #ddd;
+	background: #000;
 }
 
 .sl-slide-vertical .sl-slide-inner {
-	background: #ccc;
+	background: #000;
 }
 
