@@ -1,5 +1,5 @@
 app.controller('clientes', function($scope, $rootScope, $http,$location) {
-    $scope.buscar;
+
     $http({
         method: "POST",
         url: "services/listClient.php",

@@ -66,8 +66,7 @@
 <script>
     function cerrar() {
 
-        window.location.href = "index.php";
-        <?php session_destroy();?>
+        window.location.href = "services/closeSession.php";
     }
 </script>
 </body>

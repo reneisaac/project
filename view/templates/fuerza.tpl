@@ -54,7 +54,7 @@
                     <span ng-show="!regiClient.$pristine && regiClient.ingreso.$error.required" class="error letra">campo requerido</span>
                     <span ng-show="!regiClient.$pristine && regiClient.ingreso.$error.maxlength" class="error letra">Máximo 9 caraceteres</span>
                     <span ng-show="!regiClient.$pristine && regiClient.ingreso.$error.pattern" class="error letra">solo números</span>
-                    <label for="ingreso">Ingreso</label>
+                    <label for="ingreso">Ingreso justificado</label>
                 </div>
             </div>
             <div class="columna-2">
@@ -66,7 +66,7 @@
             <div class="columna-4" ng-if="verCuota">
                 <div class="form-grupo form-texto-animado">
                     <input type="text" class="input-text" ng-model="cuota" readonly required>
-                    <label for="cuanta">Cuota</label>
+                    <label for="cuanta">Cuota aplicable</label>
                 </div>
             </div>
             <div class="columna-12">

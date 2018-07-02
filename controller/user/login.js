@@ -13,7 +13,8 @@ app.controller('login', function ($scope, $rootScope, $http, $location) {
             function success(response) {
                 if (response.data.acceso == "1") {
                     $rootScope.logi = true;
-                    $location.path('fuerza').replace();
+                    window.location.href="././index.php";
+                    //$location.path('fuerza').replace();
                 }
             },
             function error(response) {

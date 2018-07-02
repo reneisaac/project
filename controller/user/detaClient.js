@@ -15,13 +15,38 @@ app.controller('detaClient', function($scope, $rootScope, $http) {
         }
     }).then(
         function success(response) {
-            $rootScope.deta=response.data;
-            x=$rootScope.deta;
-            $scope.data2={nombre:x.nameClient,cel:x.numTel}
+            x=response.data;
+            $scope.data={nombre:x.nameClient,
+                cel:x.numTel,
+                identi:x.numIdenti,
+                rtn:x.rtnClient,
+                ingre:x.ingreJusti
+
+            };
+            $scope.cuota=x.ingreJusti*0.3;
         },
         function error(response) {
 
         });
+
+    $scope.guarClient=function(datos){
+        datos['id']=$rootScope.idClient;
+        $http({
+            method: "POST",
+            url: "services/updateRegisClient.php",
+            data:$.param(datos),
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'
+            }
+        }).then(
+            function success(response) {
+                window.location.reload();
+
+            },
+            function error(response) {
+
+            });
+    }
 
     $scope.printClie=function(data, data2){
         var docDefinition = {
