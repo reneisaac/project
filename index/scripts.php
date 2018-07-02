@@ -29,5 +29,5 @@
 <script src="./assets/js/angularjs/angular-route.min.js"></script>
 
 <!-- Generar pdf -->
-<script src="./assets/js/pdfmake/pdfmake.min.js"></script>
+<script src="./assets/js/pdfmake/pdfmake.js"></script>
 <script src="./assets/js/pdfmake/vfs_fonts.js"></script>
